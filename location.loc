@@ -15,8 +15,8 @@ simulator_collapsed = false
 [lp339374611]
 name = LED Panel
 id = 16x16
-simulator_x = 276
-simulator_y = 54
+simulator_x = 505
+simulator_y = 82
 simulator_collapsed = false
 panel_width = 16
 panel_height = 16
@@ -26,6 +26,7 @@ name = Laser
 id = z3
 simulator_x = 352
 simulator_y = 222
+<<<<<<< HEAD
 simulator_collapsed = false
 
 [elements]
@@ -40,5 +41,13 @@ name = Strand 4
 id = l4
 simulator_x = 417
 simulator_y = 110
+=======
+>>>>>>> Completed Favicon Animator
 simulator_collapsed = false
+
+[elements]
+element0 = bl1332125986
+element1 = bl1370792415
+element2 = lp339374611
+element3 = lz399515733
 

@@ -8,11 +8,16 @@ import com.partyrock.LightMaster;
 import com.partyrock.anim.blink.BlinkFadeAnimation;
 import com.partyrock.anim.laser.LaserCircleAnimation;
 import com.partyrock.anim.laser.LaserOnAnimation;
+import com.partyrock.anim.ledpanel.ER_firstanim;
 import com.partyrock.anim.ledpanel.LEDFaviconAnimation;
 import com.partyrock.anim.ledpanel.LEDWipeAnimation;
 import com.partyrock.anim.ledpanel.RandomizeLEDAnimation;
+<<<<<<< HEAD
 import com.partyrock.anim.light.LightsOffAnimation;
 import com.partyrock.anim.light.LightsOnAnimation;
+=======
+import com.partyrock.anim.ledpanel.FaviconAnimator;
+>>>>>>> Completed Favicon Animator
 import com.partyrock.element.ElementController;
 import com.partyrock.element.ElementType;
 
@@ -37,6 +42,8 @@ public class LightAnimationManager {
         animationList.add(RandomizeLEDAnimation.class);
         animationList.add(LEDFaviconAnimation.class);
         animationList.add(LEDWipeAnimation.class);
+        animationList.add(ER_firstanim.class);
+        animationList.add(FaviconAnimator.class);
 
         // Lasers
         animationList.add(LaserOnAnimation.class);
